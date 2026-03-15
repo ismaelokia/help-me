@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ismael Web Solutions | Landing Page</title>
+<meta name="description" content="Professional landing page for web services. Fast, modern, responsive websites.">
+<meta name="keywords" content="web design, landing page, HTML website, GitHub Pages">
+<meta name="author" content="Ismael Okia">
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header {
+    background: #003016;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero {
+    background: #f4f4f4;
+    padding: 100px 20px;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 48px;
+    color: #003016;
+}
+.hero p {
+    font-size: 20px;
+    max-width: 700px;
+    margin: 20px auto;
+}
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background: #003016;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.button:hover {
+    background: #005022;
+}
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.feature-box {
+    background: #f4f4f4;
+    padding: 30px;
+    width: 250px;
+    border-radius: 10px;
+}
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.contact-form button {
+    background: #003016;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.contact-form button:hover {
+    background: #005022;
+}
+@media(max-width:600px){
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+    .feature-box {
+        width: 80%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h2>Ismael Web Solutions</h2>
+<nav>
+<a href="#home">Home</a>
+<a href="#features">Features</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero" id="home">
+<h1>Welcome to Your Professional Landing Page</h1>
+<p>Create fast, responsive, and modern landing pages for your services or business using GitHub Pages.</p>
+<a href="#contact" class="button">Get Started</a>
+</section>
+
+<section class="section" id="features">
+<h2>Our Features</h2>
+<div class="features">
+
+<div class="feature-box">
+<h3>Fast</h3>
+<p>Optimized for speed and performance on all devices.</p>
+</div>
+
+<div class="feature-box">
+<h3>Reliable</h3>
+<p>Dependable services and consistent uptime for your website.</p>
+</div>
+
+<div class="feature-box">
+<h3>Secure</h3>
+<p>Safe and secure websites to protect your data and customers.</p>
+</div>
+
+</div>
+</section>
+
+<section class="section" id="contact">
+<h2>Contact Us</h2>
+<form class="contact-form">
+<label for="name">Name</label>
+<input type="text" id="name" placeholder="Your Name" required>
+
+<label for="email">Email</label>
+<input type="email" id="email" placeholder="Your Email" required>
+
+<label for="message">Message</label>
+<textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+
+<button type="submit">Send Message</button>
+</form>
+</section>
+
+<footer>
+<p>© 2026 Ismael Web Solutions. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
